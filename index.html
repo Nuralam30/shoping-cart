@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shoping cart</title>
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="shoping-cart">
+            <div class="cart" id="cart-1">
+                <div class="phone-info">
+                    <img src="images/iphone11.png" alt="">
+                    <h5>iPhone 11 pro max</h5>
+                </div>
+                <div class="cart-info">
+                    <i class="fa fas fa-minus" id="minus"></i>
+                    <span id="quantity">1</span>
+                    <i class="fa fas fa-plus" id="plus"></i>
+                    <h6>$<span id="totalPrice">1120</span></h6>
+                    <i class="fa fas fa-remove"></i>
+                </div>
+            </div>
+
+            <div class="cart" id="cart-2">
+                <div class="phone-info">
+                    <img src="images/Samsung-Galaxy-Note10-Silicone-Cover.jpg" alt="">
+                    <h5>Samsung-Galaxy-Note10</h5>
+                </div>
+                <div class="cart-info">
+                    <i class="fa fas fa-minus" id="minus"></i>
+                    <span id="quantity">1</span>
+                    <i class="fa fas fa-plus" id="plus"></i>
+                    <h6 class="totalPrice">$<span id="totalPrice">800</span></h6>
+                    <i class="fa fas fa-remove"></i>
+                </div>
+            </div>
+
+            <div class="cart" id="checkOut-info">
+                <div id="subtotal">
+                    <h6>Subtotal :</h6> <h6>$<span id="subtotal-price">1920</span></h6>
+                </div>
+                <div id="tax">
+                    <h6>Tax :</h6> <h6>$<span  id="total-tax">00</span></h6>
+                </div>
+                <div id="total">
+                    <h6>Total :</h6> <h6>$<span  id="total-price">1920</span></h6>
+                </div>
+            </div><br>
+
+            <div class="checkout-btn">
+                <button class="btn btn-success" id="checkout-btn">Checkout</button>
+            </div>
+        </div>
+    </div>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

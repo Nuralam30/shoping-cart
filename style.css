@@ -1,0 +1,57 @@
+
+body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.shoping-cart{
+    min-height: 80vh;
+    display: flex;
+    flex-direction: column;
+    background-color: #dedede;
+    padding: 50px 80px;
+}
+.cart, .phone-info, .cart-info{
+    display: flex;
+    align-items: center;
+}
+.cart{
+    padding: 15px 50px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    background-color: #fff;
+}
+.phone-info, .cart-info{
+    width: 50%;
+}
+.cart img{
+    max-height: 90px;
+}
+.cart-info{
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+.fas{
+    cursor: pointer;
+}
+.fa-remove{
+    font-size: 26px;
+    color: red;
+}
+
+#checkOut-info{
+    display: flex;
+    flex-direction: column;
+}
+#subtotal, #tax, #total{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkout-btn{
+    display: flex;
+    justify-content: flex-end;
+}
+
